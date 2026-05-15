@@ -2,6 +2,7 @@
   "name": "tourmate-frontend",
   "private": true,
   "version": "0.0.1",
+  "homepage": "https://mtanjim999.github.io/Tour_Project/",
   "type": "module",
   "scripts": {
     "dev": "vite",
