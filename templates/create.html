@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="text-3xl font-bold mb-8">নতুন ট্যুর তৈরি করুন</h1>
+
+<form method="POST" class="bg-white p-6 rounded shadow max-w-xl">
+
+    <input name="name" placeholder="ট্যুরের নাম" class="border p-3 w-full mb-4">
+
+    <input name="destination" placeholder="গন্তব্য" class="border p-3 w-full mb-4">
+
+    <input name="budget" placeholder="বাজেট" class="border p-3 w-full mb-4">
+
+    <input type="date" name="date" class="border p-3 w-full mb-4">
+
+    <input name="max_size" placeholder="সর্বোচ্চ সদস্য" class="border p-3 w-full mb-4">
+
+    <input name="hotel" placeholder="হোটেল" class="border p-3 w-full mb-4">
+
+    <textarea name="description" placeholder="বর্ণনা" class="border p-3 w-full mb-4"></textarea>
+
+    <button class="bg-blue-600 text-white px-6 py-3 rounded">
+        তৈরি করুন
+    </button>
+
+</form>
+
+{% endblock %}
